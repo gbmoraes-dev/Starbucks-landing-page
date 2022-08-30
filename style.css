@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 35px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+header img {
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    
+}
+
+.links {
+    font-weight: 400;
+}
+
+.links a {
+    padding-left: 30px;
+    text-decoration: none;
+    right: 0;
+    font-size: 16.5px;
+    margin-right: 15px;
+    color: #111;
+    transition: 1.5s;
+}
+
+.links a:hover{
+    letter-spacing: 1px;
+}
+
+.signin {
+    border-radius: 25px;
+    font-size: 16.5px;
+    color: #fff;
+    background-color: #017143;
+    outline: none;
+    padding: 3.5px 10px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 1s;
+    display: flex;
+    z-index: 1000;
+}
+
+.signin:hover {
+    background-color: #02df83;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+}
+
+.text {
+    position: absolute;
+    font-weight: 600;
+    font-size: 55px;
+    margin-top: 45px;
+    margin-left: 450px;
+    line-height: 110px;
+    
+}
+
+.text .green {
+    color: #017143;
+}
+
+.text .black {
+    color: rgb(27, 27, 27);
+}
+
+.cups {
+    position: absolute;
+    bottom: 0;
+    margin-left: 500px;
+}
+
+.seeds {
+    position: absolute;
+    bottom: 0;
+}
+
+.seeds .seedleft {
+    margin-left: 430px;
+}
+
+.seeds .seedright {
+    margin-bottom: 80px;
+    margin-left: 390px;
+}
+
+.scroll {
+    position: absolute;
+    bottom: 15px;
+    margin-left: 49%;
+}
+
+.upper {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.lower {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
